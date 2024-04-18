@@ -395,7 +395,7 @@ function download(p, l, t, ftype = "PDF", isTitle = false, filedate="文件发�
     CACHE.inter.push(setTimeout(function () {
         swal({
             input: 'text',
-            html: '自动生成的引用文字（请仔细检查，<strong>仅供参考</strong>）<div title="张馨怡，任梓彰，吴开元和王子轩">感谢我在BJMUNC18 UNDPen的主席们启发</div>',
+            html: '自动生成的引用文字（请仔细检查，<strong>仅供参考</strong>）,
             confirmButtonText: '复制',
             showCancelButton: true,
             inputValue: ctx_ref.format(getCommittee(l, p), t, filedate, p, getDateStr()),
