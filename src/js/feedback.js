@@ -9,7 +9,7 @@ const swal = require("sweetalert2");
 $(".feedback").click(function () {
     swal({
         title: "反馈方式",
-        html: `请发送反馈邮件至g171117@126.com，并提供以下信息：<br /><br /><code>APP_VERSION: ${
+        html: `请发送反馈邮件至liminghan007@qq.com，并提供以下信息：<br /><br /><code>APP_VERSION: ${
             window.UNPDF_VERSION
         }</code><br /><code>LAST_ERROR: ${
             window.LAST_ERROR_EVENT || null
